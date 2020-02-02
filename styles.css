@@ -45,7 +45,8 @@ img {
 	object-position: center;
 	text-align: center;
 	padding-top: 40px;
-	padding-bottom: 30px;
+  padding-bottom: 30px;
+  border-radius: 50%;
 }
 
 img:hover {
