@@ -27,10 +27,6 @@ body {
   transition: 0.3s;
 }
 
-.circular-image {
-  border-radius: 50%;
-}
-
 a,
 .button {
   -webkit-transition: 0.3s;
@@ -1342,11 +1338,15 @@ h3 {
 @media (min-width: 992px) and (max-width: 1200px) {
   .intro_area .single_slider .my_img {
     width: 290px;
+    height: auto;
+    border-radius: 50%;
   }
 }
 
 .intro_area .single_slider .my_img img {
   width: 100%;
+  height: auto;
+  border-radius: 50%;
 }
 
 .about_info_area {
@@ -2592,7 +2592,7 @@ h3 {
 }
 
 .service_area .single_service {
-  border: 1px solid #6B4B40;
+  border: 3px solid #987654;
   padding: 45px 30px;
   margin-bottom: 30px;
 }
@@ -2703,7 +2703,7 @@ h3 {
 }
 
 .contact-info .media-body p {
-  color: #8a8a8a;
+  color: #4a7059;
 }
 /*=================== CONTACT BANNER END ====================*/
 
@@ -2712,6 +2712,7 @@ h3 {
   font-size: 27px;
   font-weight: 600;
   margin-bottom: 20px;
+  color: #4a7059;
 }
 
 .form-contact label {
@@ -2723,7 +2724,7 @@ h3 {
 }
 
 .form-contact .form-control {
-  border: 1px solid #e5e6e9;
+  border: 2px solid #4a7059;
   border-radius: 0px;
   height: 48px;
   padding-left: 18px;
@@ -2738,7 +2739,8 @@ h3 {
 
 .form-contact .form-control::placeholder {
   font-weight: 300;
-  color: #999999;
+  color: white;
+  opacity: 0.8;
 }
 
 .form-contact textarea {
@@ -2790,6 +2792,7 @@ h3 {
 
 .contact-section {
   padding: 130px 0 100px;
+  background-color: #DB9A64;
 }
 
 @media (max-width: 991px) {
@@ -2970,78 +2973,6 @@ h6 {
 .genric-btn.default-border:hover {
   color: #415094;
   background: #f9f9ff;
-  border: 1px solid transparent;
-}
-
-.genric-btn.primary {
-  color: #fff;
-  background: #ff5e13;
-  border: 1px solid transparent;
-}
-
-.genric-btn.primary:hover {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
-  background: #fff;
-}
-
-.genric-btn.primary-border {
-  color: #ff5e13;
-  border: 1px solid #ff5e13;
-  background: #fff;
-}
-
-.genric-btn.primary-border:hover {
-  color: #fff;
-  background: #ff5e13;
-  border: 1px solid transparent;
-}
-
-.genric-btn.success {
-  color: #fff;
-  background: #4cd3e3;
-  border: 1px solid transparent;
-}
-
-.genric-btn.success:hover {
-  color: #4cd3e3;
-  border: 1px solid #4cd3e3;
-  background: #fff;
-}
-
-.genric-btn.success-border {
-  color: #4cd3e3;
-  border: 1px solid #4cd3e3;
-  background: #fff;
-}
-
-.genric-btn.success-border:hover {
-  color: #fff;
-  background: #4cd3e3;
-  border: 1px solid transparent;
-}
-
-.genric-btn.info {
-  color: #fff;
-  background: #38a4ff;
-  border: 1px solid transparent;
-}
-
-.genric-btn.info:hover {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
-  background: #fff;
-}
-
-.genric-btn.info-border {
-  color: #38a4ff;
-  border: 1px solid #38a4ff;
-  background: #fff;
-}
-
-.genric-btn.info-border:hover {
-  color: #fff;
-  background: #38a4ff;
   border: 1px solid transparent;
 }
 
