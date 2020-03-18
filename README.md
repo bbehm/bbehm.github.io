@@ -4,7 +4,7 @@ I am a student at Hive Helsinki and Aalto University. I have studied computer sc
 
 Note that this website is still under construction :)
 
-At biancabehm.com you can find further information about me and my background!
+At www.biancabehm.com you can find further information about me and my background!
 
 -Bianca
 
