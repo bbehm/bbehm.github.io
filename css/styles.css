@@ -1,8 +1,6 @@
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:300,300i,400,500,500i,700,900&display=swap");
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   font-style: normal;
 }
@@ -57,8 +55,8 @@ button {
 }
 
 h1, h2, h3, h4, h5 {
-  font-family: "Roboto", sans-serif;
-  color: #001D38;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
 }
 
 h1 a,
@@ -85,7 +83,7 @@ p {
   line-height: 28px;
   color: #4D4D4D;
   margin-bottom: 13px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 label {
@@ -161,7 +159,7 @@ h3 {
   color: #131313;
   display: inline-block;
   padding: 18px 44px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -201,7 +199,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 19px 41px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 15px;
   font-weight: 500;
   border: 0;
@@ -244,7 +242,7 @@ h3 {
   color: #fff;
   display: inline-block;
   padding: 13px 27px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 14px;
   font-weight: 400;
   border: 0;
@@ -285,7 +283,7 @@ h3 {
   color: #DB9A64 !important;
   display: inline-block;
   padding: 17px 49px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -306,7 +304,7 @@ h3 {
   color: #4a7059 !important;
   display: inline-block;
   padding: 17px 49px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 16px;
   font-weight: 500;
   border: 0;
@@ -354,7 +352,7 @@ h3 {
   font-weight: 600;
   display: inline-block;
   padding: 12px 36px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   cursor: pointer;
 }
 
@@ -368,6 +366,7 @@ h3 {
 }
 
 .section_title h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   font-weight: 400;
   color: #fff;
@@ -401,7 +400,7 @@ h3 {
   color: #F91842;
   margin-bottom: 0;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 16px;
 }
 
@@ -594,7 +593,7 @@ h3 {
 
 .header-area .main-header-area .Appointment .book_btn a {
   background: transparent;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   padding: 14px 49px;
   font-size: 16px;
   font-weight: 600;
@@ -634,7 +633,7 @@ h3 {
   font-weight: 500;
   display: inline-block;
   padding: 0px 10px 0px 10px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   position: relative;
   text-transform: capitalize;
 }
@@ -941,7 +940,7 @@ h3 {
 }
 
 .intro_area .single_slider .slider_text h3 {
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 80px;
   font-weight: 300;
   line-height: 90px;
@@ -977,7 +976,7 @@ h3 {
   font-size: 30px;
   font-weight: 400;
   color: white;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   margin-bottom: 24px;
 }
 
@@ -1197,7 +1196,7 @@ h3 {
   font-weight: 400;
   color: #001D38;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .team_area .single_team .team_info p {
@@ -1206,7 +1205,7 @@ h3 {
   color: #727272;
   margin-top: 6px;
   margin-bottom: 8px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .team_area .single_team:hover .team_thumb img {
@@ -1249,7 +1248,7 @@ h3 {
   font-size: 20px;
   line-height: 32px;
   margin: 34px 0;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 @media (min-width: 320px) and (max-width: 1500px) {
@@ -1279,7 +1278,7 @@ h3 {
   font-size: 24px;
   font-weight: 400;
   margin-bottom: 5px;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   color: #DB9A64;
 }
 
@@ -1287,7 +1286,7 @@ h3 {
   font-size: 13px;
   font-weight: 400;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .download_area {
@@ -1302,6 +1301,7 @@ h3 {
 }
 
 .download_area .download_text h3 {
+  font-family: 'Montserrat', sans-serif;
   font-size: 36px;
   color: #fff;
   line-height: 46px;
@@ -1324,7 +1324,7 @@ h3 {
 .download_area .download_left p {
   font-size: 16px;
   line-height: 28px;
-  color: #C9C9C9;
+  color: #d3d8d3;
   margin: 20px 0;
 }
 
@@ -1446,23 +1446,6 @@ h3 {
   color: #fff;
 }
 
-.bradcam_area .icon {
-  background: #FF5748;
-  width: 136px;
-  height: 136px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  text-align: center;
-  line-height: 136px;
-  margin: auto;
-}
-
-.bradcam_area .icon i {
-  color: #fff;
-  font-size: 68px;
-}
-
 .bradcam_area h4 {
   font-size: 70px;
   font-weight: 300;
@@ -1486,7 +1469,7 @@ h3 {
   color: #fff;
   font-size: 16px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .service_area {
@@ -1521,7 +1504,7 @@ h3 {
 
 .service_area .single_service p {
   font-size: 16px;
-  color: #C9C9C9;
+  color: #d3d8d3;
   line-height: 28px;
   margin-bottom: 0;
 }
