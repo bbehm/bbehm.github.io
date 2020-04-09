@@ -126,7 +126,7 @@ a:hover,
   background: #4a7059;
 }
 
-/* Titles  */
+/* Titles */
 
 .section_title h3 {
   font-size: 36px;
@@ -637,6 +637,34 @@ a:hover,
   color: #d3d8d3;
   line-height: 28px;
   margin-bottom: 0;
+}
+
+/* Experience Carousel */
+
+#experiences {
+  background-color: #db9a64;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#past-experiences {
+  background-color: #4a7059;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.experience-text {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.experience-image {
+  width: 30%;
+  border-radius: 100%;
+  margin: 20px;
 }
 
 /* Contact Section  */
