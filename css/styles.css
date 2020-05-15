@@ -30,10 +30,10 @@ h3 {
 }
 
 p {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 300;
   line-height: 28px;
-  color: #4d4d4d;
+  color: white;
   margin-bottom: 13px;
   font-family: "Montserrat", sans-serif;
 }
@@ -56,6 +56,12 @@ li {
 .section-padding {
   padding-top: 120px;
   padding-bottom: 100px;
+}
+
+/* Alignment Options */
+
+.right_align {
+  text-align: right;
 }
 
 /* Visible Links */
@@ -149,6 +155,10 @@ a:hover,
     font-size: 36px;
     line-height: 42px;
   }
+}
+
+.green_heading h3 {
+  color: #4a7059;
 }
 
 /* Header Area */
