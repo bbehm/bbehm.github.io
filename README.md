@@ -1,10 +1,9 @@
 # Hello, World - I am Bianca!
 
-I am a student at Hive Helsinki and Aalto University. I have studied computer science at Hive since October 2019 and I am also currently doing my masters in business at Aalto. 
+This is my personal website project which I am using to teach myself web development as a side project.
 
-Note that this website is still under construction :)
+You can find the live website at: www.biancabehm.com.
 
-At www.biancabehm.com you can find further information about me and my background!
+Note that the website is still __under construction__. :)
 
--Bianca
-
+![screenshot of site](screenshots/screenshot1.png)
