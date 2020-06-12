@@ -84,6 +84,11 @@ a,
   color: #db9a64;
 }
 
+a,
+.vis_link_white {
+  color: white;
+}
+
 a:hover,
 .vis_link:hover {
   color: white;
@@ -182,6 +187,12 @@ a:hover,
   color: #fff;
   line-height: 46px;
   margin-bottom: 60px;
+}
+
+.white_text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  color: #fff;
 }
 
 /* Header Area */
@@ -656,6 +667,43 @@ a:hover,
 .current-projects .single_project p {
   font-size: 16px;
   color: #d3d8d3;
+  line-height: 28px;
+  margin-bottom: 0;
+}
+
+/* Portfolio */
+
+.portfolio {
+  background: #db9a64;
+  padding-bottom: 90px;
+  padding-top: 120px;
+}
+
+.portfolio .single_project {
+  border: 3px solid #4a7059;
+  background-color: #4a7059;
+  opacity: 0.9;
+  padding: 45px 30px;
+  margin-bottom: 30px;
+}
+
+.portfolio .single_project h3 {
+  color: #4a7059;
+  margin-top: 22px;
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+.portfolio .single_project h3:hover {
+  color: white;
+  margin-top: 22px;
+  margin-bottom: 11px;
+  font-weight: 400;
+}
+
+.portfolio .single_project p {
+  font-size: 16px;
+  color: white;
   line-height: 28px;
   margin-bottom: 0;
 }
