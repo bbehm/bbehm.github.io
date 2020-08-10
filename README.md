@@ -1,4 +1,4 @@
-# Hello, World - I am Bianca!
+# I am Bianca!
 
 This is my personal website project which I am using to teach myself web development as a side project.
 
