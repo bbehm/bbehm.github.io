@@ -1,8 +1,13 @@
-h1, h2, h3, h4 p {
+h1, h2, h3 {
 	color: white;
+
+}
+h4, p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
 }
 body {
-	background-color: #C5D5E4;
+	background-color: #938581;
 	opacity: 90%;
 }
 .navbar-custom {
@@ -38,10 +43,15 @@ body {
 	padding: 100px;
 }
 
-.footer-div {
-	background-color: #C5D5E4;
-	padding: 100px;
+.final-div {
+	background-color: #8896AB;
+	padding: 200px;
 	opacity: 90%;
+}
+
+.footer-div {
+	margin-top: 100px;
+	background-color: #938581;
 }
 
 #my-image {
@@ -51,7 +61,29 @@ body {
 	padding-top: 40px;
 }
 #name-heading {
-	font-size: 7vw;
-	padding: 50px;
-	margin-top: 100px;
+	font-size: 8vw;
+	margin-left: 15%;
+	margin-top: 14%;
+	font-family: 'Dancing Script', cursive;
+	opacity: 80%;
+}
+
+#footer-text {
+	color: white;
+	font-size: 1.5vw;
+}
+
+
+.btn-default {
+	background-color: #466362;
+	color:#FFF;
+	border-color: #466362;
+	opacity: 80%;
+	font-family: 'Montserrat', sans-serif;
+}
+ 
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+background-color: #E66B61;
+color:#FFF;
+border-color: #E66B61;
 }
