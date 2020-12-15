@@ -1,0 +1,54 @@
+h1, h2, h3, h4 p {
+	color: white;
+}
+body {
+	background-color: #C5D5E4;
+	opacity: 90%;
+}
+.navbar-custom {
+	background-color: #938581;
+	
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+	color: rgba(255,255,255,.8);
+	font-size: 40px;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+	color: rgba(255,255,255,.5);
+	font-size: 20px;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #ffffff;
+}
+
+.upper-div {
+	background-color: #938581;
+}
+.middle-div {
+	background-color: #466362;
+	opacity: 90%;
+	padding: 100px;
+}
+
+.footer-div {
+	background-color: #C5D5E4;
+	opacity: 90%;
+}
+
+#my-image {
+	width: 40%;
+	margin-right: 130px;
+}
+#name-heading {
+	font-size: 100px;
+	padding: 50px;
+	margin-top: 100px;
+}
