@@ -54,6 +54,17 @@ body {
 	background-color: #938581;
 }
 
+@media (max-width: 990px) {
+	img#my-image {
+		display: none;
+	}
+}
+@media (max-width: 990px) {
+	h3#name-heading {
+		margin: auto;
+		padding: 50px;
+	}
+}
 #my-image {
 	width: 30%;
 	height: 100%;
