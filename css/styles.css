@@ -213,8 +213,14 @@ border-color: #E66B61;
 	.card-columns-custom {
 		padding: 0px 150px 100px;
 	}
-}@media (max-width: 990px) {
+}
+@media (max-width: 990px) {
 	.mobile-menu {
 		justify-content: center !important;
+	}
+}
+@media (max-width: 620px) {
+	.code-card {
+		margin: auto;
 	}
 }
