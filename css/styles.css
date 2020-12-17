@@ -21,6 +21,10 @@ body {
 	padding-top: 40px;
 	padding-bottom: 40px;
 }
+.portfolio-heading {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 3.0vw;
+}
 /* change the brand and text color */
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
@@ -45,7 +49,8 @@ body {
 }
 .green-div {
 	background-color: #466362;
-	padding: 50px 100px 100px 100px;
+	padding: 0px 30px 50px 30px;
+
 }
 
 .blue-div {
@@ -116,10 +121,100 @@ body {
 	border-color: #466362;
 	opacity: 80%;
 	font-family: 'Montserrat', sans-serif;
+	margin: 2px;
 }
- 
+
 .btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
 background-color: #E66B61;
 color:#FFF;
 border-color: #E66B61;
+}
+
+.btn-custom {
+	background-color: #E66B61;
+	color: #FFF;
+	border-color: #E66B61;
+	opacity: 80%;
+	margin: 2px;
+	font-family: 'Montserrat', sans-serif;
+}
+.btn-custom:hover, .btn-custom:focus, .btn-custom:active, .open .dropdown-toggle.btn-custom {
+	background-color: #FFF;
+	color:black;
+	border-color: #FFF;
+	}
+.tech-tag {
+	background-color: #E66B61;
+	color: #fff;
+	border-color: #E66B61;
+	margin: 2px;
+	opacity: 80%;
+	font-family: 'Montserrat', sans-serif;
+}
+.tech-tag-two {
+	background-color: #8896AB;
+	color: #fff;
+	border-color: #8896AB;
+	margin: 2px;
+	opacity: 90%;
+	font-family: 'Montserrat', sans-serif;
+}
+.code-card {
+	width: 18rem;
+	background-color: #938581;
+	opacity: 90%;
+	border-color: #466362;
+}
+.other-card {
+	width: 18rem;
+	background-color: #466362;
+	opacity: 90%;
+	border-color: #466362;
+	padding: 0% 4% 0%;
+}
+.card-title-custom {
+	color: #fff;
+	font-size: 2vw;
+	font-family: 'Montserrat', sans-serif;
+}
+.card-title-code {
+	color: #fff;
+	font-size: 2vw;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.big-icon {
+	font-size: 4vw;
+	color: #fff;
+}
+.big-icon:hover {
+	color: #E66B61;
+}
+.responsive-text {
+	font-size: 20px;
+}
+@media (max-width: 990px) {
+	.responsive-text {
+		font-size: 16px;
+	}
+}
+@media (max-width: 990px) {
+	.card-title-code {
+		font-size: 20px;
+	}
+	.card-title-custom {
+		font-size: 20px;
+	}
+}
+@media (min-width: 1100px) {
+	.card-group-custom {
+		padding: 0px 150px 0px;
+	}
+	.card-columns-custom {
+		padding: 0px 150px 100px;
+	}
+}@media (max-width: 990px) {
+	.mobile-menu {
+		justify-content: center !important;
+	}
 }

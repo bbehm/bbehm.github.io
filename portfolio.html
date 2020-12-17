@@ -8,19 +8,18 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
-  <!-- Google fonts -->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Montserrat:wght@300&display=swap" rel="stylesheet">
 </head>
-<!-- Font Awesome -->
 <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 <script src="js/index.js"></script>
 <body>
+	<!-- NAVBAR START -->
 	<nav class="navbar navbar-expand navbar-custom">
-		<div class="justify-content-end navbar-collapse">
+		<div class="justify-content-end mobile-menu navbar-collapse">
 		  <ul class="navbar-nav">
 			<li class="nav-item">
 			  <form method="GET" action="/portfolio.html" >
@@ -40,21 +39,98 @@
 		  </ul>
 		</div>
 	</nav>
-  <!-- INTRO START -->
+  <!-- NAVBAR END -->
+  <!-- HEADER START -->
   <div class="d-flex justify-content-center upper-div">
 	<h3 class="page-heading">Portfolio</h3>
   </div>
   <div class="green-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"></path></svg></div>
-
-  <!-- INTRO END-->
+  <!-- HEADER END-->
+  <!-- CODE PROJECTS START -->
   <div class="d-flex justify-content-center green-div">
-
+	  <h3 class="portfolio-heading">Code Projects</h3>
   </div>
+  <div class="card-columns green-div card-columns-custom">
+	<div class="card code-card">
+	  <img class="card-img-top" src="images/self-monitoring.png" alt="Card image cap">
+	  <div class="card-body">
+		<h5 class="card-title card-title-code">Self-monitoring App</h5>
+		<p class="card-text responsive-text">This is a web app for self-monitoring built with Deno and the Oak framework. It's also the first ever web application that I have built myself.</p>
+		<p class="card-text"><a href="https://github.com/bbehm/self-monitoring-app" class="btn btn-default">Source code</a><a href="https://self-monitoring.herokuapp.com/" class="btn btn-default">Deployed app</a><a class="btn tech-tag">JavaScript</a><a class="btn tech-tag">Deno</a><a class="btn tech-tag">PostgreSQL</a><a class="btn tech-tag-two">Web</a></p>
+	  </div>
+	</div>
+	<div class="card code-card">
+		<img class="card-img-top" src="images/fdf.png" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title card-title-code">FdF</h5>
+		  <p class="card-text responsive-text">A project in Graphic programming in C. It's about placing points in space, joining them with segments and observing them from different viewpoints.</p>
+		  <p class="card-text"><a href="https://github.com/bbehm/FdF" class="btn btn-default">Source code</a><a class="btn tech-tag">C</a><a class="btn tech-tag-two">Graphics</a></p>
+		</div>
+	  </div>
+	<div class="card code-card">
+	  <img class="card-img-top" src="images/printf.png" alt="Card image cap">
+	  <div class="card-body">
+		<h5 class="card-title card-title-code">ft_printf</h5>
+		<p class="card-text responsive-text">In this project I recoded printf from scratch in pure C without using any premade library functions!</p>
+		<p class="card-text"><a href="https://github.com/bbehm/ft_printf" class="btn btn-default">Source code</a><a class="btn tech-tag">C</a><a class="btn tech-tag-two">Functions</a></p>
+	  </div>
+	</div>
+	<div class="card code-card text-white text-center p-3">
+	  <blockquote class="blockquote mb-0">
+		<p>Check out my Github!</p>
+		<a class="big-icon" href="https://github.com/bbehm"><i class="social-icon fab fa-github"></i></a>
+	  </blockquote>
+	</div>
+	<div class="card code-card">
+		<img class="card-img-top" src="https://github.com/bbehm/Filler/blob/master/gif_2.gif?raw=true" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title card-title-code">filler</h5>
+		  <p class="card-text responsive-text">In this project I created an algorithm that competes against others in a simple game!</p>
+		  <p class="card-text"><a href="https://github.com/bbehm/Filler" class="btn btn-default">Source code</a><a class="btn tech-tag">C</a><a class="btn tech-tag-two">Algorithms</a></p>
+		</div>
+	  </div>
+	<div class="card code-card">
+		<img class="card-img-top" src="images/libft.png" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title card-title-code">Libft</h5>
+		  <p class="card-text responsive-text">This is my personal function library where I have recreated some common functions in C and made some own ones I find useful to have!</p>
+		  <p class="card-text"><a href="https://github.com/bbehm/Libft" class="btn btn-default">Source code</a><a class="btn tech-tag">C</a><a class="btn tech-tag-two">Functions</a></p>
+		</div>
+	  </div>
+	  <div class="card code-card">
+		<img class="card-img-top" src="images/petshop.png" alt="Card image cap">
+		<div class="card-body">
+		  <h5 class="card-title card-title-code">The Pet Shop</h5>
+		  <p class="card-text responsive-text">This is a simple webshop created as a pair project over 2 days.</p>
+		  <p class="card-text"><a href="https://github.com/bbehm/simple_webshop" class="btn btn-default">Source code</a><a class="btn tech-tag">PHP</a><a class="btn tech-tag">MySQL</a><a class="btn tech-tag-two">Web</a></p>
+		</div>
+	  </div>
+  </div>
+  <!-- CODE PROJECTS END -->
+  <!-- OTHER PROJECTS START -->
   <div class="d-flex justify-content-center green-div">
-
-</div>
-<div class="green-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-19.47,73.52 C235.60,2.47 325.90,203.78 516.08,30.09 L500.00,0.00 L0.00,0.00 Z" ></path></svg></div>
-
+	  <h3 class="portfolio-heading">Other Projects</h3>
+  </div>
+  <div class="green-div card-group card-group-custom">
+	<div class="card other-card">
+		<img class="card-img-top" src="images/hexagon.jpg" alt="Hexagon ry image">
+		<div class="card-body">
+		  <h5 class="card-title card-title-custom">Hexagon ry</h5>
+		  <p class="card-text responsive-text">I am one of the founding members and a board member during 2020 of Hexagon ry, the student organization at Hive Helsinki. I was responsible for external relations and my tasks included founding of the organization, event organizing, partnership negotiations and excursion organizing.</p>
+		  <p class="card-text"><a href="https://www.facebook.com/hexagonry" class="btn btn-custom">Facebook</a><a href="https://twitter.com/hexagon_ry" class="btn btn-custom">Twitter</a></p>
+		</div>
+	  </div>
+	  <div class="card other-card">
+		<img class="card-img-top" src="images/honey.png" alt="Honey hackathon image">
+		<div class="card-body">
+		  <h5 class="card-title card-title-custom">Honey</h5>
+		  <p class="card-text responsive-text">Together with some fellow Hive students we put together a hackathon concept to connect Hive students with industry professionals. My tasks included partnerships, finances and event operations. Unfortunately due to the COVID-19 situation we decided to postpone our first event.</p>
+		  <p class="card-text"><a href="https://www.honeyhackathon.com/" class="btn btn-custom">Honey website</a></p>
+		</div>
+	  </div>
+  </div>
+	<div class="green-wave" style="height: 150px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-19.47,73.52 C235.60,2.47 325.90,203.78 516.08,30.09 L500.00,0.00 L0.00,0.00 Z" ></path></svg></div>
+	 <!-- OTHER PROJECTS END -->
 </body>
 <div class="footer-div d-flex justify-content-center ">
  <a href="https://www.linkedin.com/in/bianca-behm/"><i class="social-icon fab fa-linkedin"></i></a>
